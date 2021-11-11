@@ -185,7 +185,7 @@ const olivie = new Salad(saladTypes.TYPE_OLIVIE)
 const cola = new Drink(drinkTypes.TYPE_COLA)
 const coffee = new Drink(drinkTypes.TYPE_COFFEE)
 
-// console.log(caesar.calculatePrice());
+
 
 //adding positions 
 cart.add(smallBurgerPotato)
@@ -194,6 +194,10 @@ cart.add(caesar)
 cart.add(caesar)
 
 console.log(cart.items)
+
+// price and calorie of each item
+console.log(caesar.calculatePrice());
+console.log(caesar.calculateCalories());
 
 //remove positions 
 cart.remove(smallBurgerPotato)
