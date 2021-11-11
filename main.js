@@ -195,7 +195,7 @@ cart.add(caesar)
 
 console.log(cart.items)
 
-// price and calorie of each item
+// price and calories of each item
 console.log(caesar.calculatePrice());
 console.log(caesar.calculateCalories());
 
